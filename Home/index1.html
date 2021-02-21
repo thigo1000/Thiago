@@ -1,0 +1,90 @@
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Loja virtual</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <a class="login" data-modal="login">login</a>
+            <h1>Loja Smash</h1>
+            <nav class="menu" data-menu="suave">
+                <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul data-menu="lista" id="menu">
+                    <li><a href="">Home </a></li> 
+                    <li><a href="">Acessorios</a></li>
+                    <li><a href="">Camisas</a></li>
+                    <li><a href="">moletom</a></li>
+                    <li data-dropdown>
+                        <a href="">Sobre</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">A Empresa</a></li>
+                            <li><a href="">A equipe</a></li>
+                            <li><a href="">sócios</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            </header>
+            <main>
+            <h2>Produtos mais vendidos</h2>
+        <div class="flex">
+        <div class="dest">
+        <a href=""> <img src="dest.jpg" alt="moletom rikudou" 
+        title="moletom"  width="200px" height="200px"> </a>
+        <h3>moleton madara uchiha</h3>
+        <p class="atual">R$89,00</p>
+        </div>
+        <div class="dest">
+            <a href=""><img src="desta.jpg" alt="Moletom akatsuki" title="" 
+                width="200px" height="200px"></a>
+            <h3>moletom da akatsuki</h3>
+            <p>R$89,00</p>
+        </div>
+        <div class="dest">
+            <a href=""><img src="destaq.jpg" alt="Blusa Naruto" title="" 
+                width="200px" height="200px"></a>
+            <h3>camisa do naruto</h3>
+            <p>R$49,90</p>
+        </div>
+        <div class="dest">
+            <a href=""><img src="destaqu.jpg" alt="Blusa nar/sas" title="" 
+                width="200px" height="200px"></a>
+            <h3>camisa naruto e sasuke</h3>
+            <p>R$49,90</p>
+        </div>
+        <div class="dest">
+            <a href=""><img src="destaque.jpg" alt="Blusa Titan" title="" 
+                width="200px" height="200px"></a>
+            <h3>camisa attack on titan </h3>
+            <p>R$49,90</p>
+        </div>
+        </div>
+        </main>
+        <footer>
+            <div class="rodape">
+                <h3> Duvidas </h3>
+                <a href= "tel:+552140028922">
+                tel:55214002-8922 </a>
+                <br>
+                <a href= "supportnerd@exemplo.com">
+                Email </a>
+                </div>
+        </footer>
+      <section class="content"  data-modal="caixa">
+          <div class="caixalogin">
+        <button data-modal="fechar" class="fechar">X</button>
+        <form action="">
+            <label for="email">Email</label>
+            <input type="text" for="email" id="email" placeholder="anime@exemplo.com" required>
+            <label for="senha">Senha</label>
+            <input type="password" for="senha" id="senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+          </div>
+      </section>
+      <script src="inicio.js"></script>
+</body>
+</html>

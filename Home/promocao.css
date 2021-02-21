@@ -1,0 +1,8 @@
+ [data-promocao='novopreco'] .atual{
+    text-decoration: line-through;
+ }
+
+[data-promocao='novopreco'] .novop{
+    text-transform: uppercase;
+    font-weight: bold;
+}

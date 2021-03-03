@@ -3,7 +3,7 @@
 }
 
 
-@media (max-width:700px){
+@media (max-width:728px){
      [data-menu='button']{
         display: flex;
         align-items: center;
